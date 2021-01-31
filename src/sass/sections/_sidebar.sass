@@ -1,0 +1,32 @@
+.sidebar
+  padding-bottom: 50px
+  &__btn
+    margin-bottom: 22px
+    padding: 11px 32px
+    color: #2b2b2b
+    border-radius: 10px
+  &__accordion
+    .card
+      border: none
+    .card-header
+      border: none
+      background-color: transparent
+      padding: 0
+    .card-body
+      padding: 0
+    .card__title
+      font-size: 18px
+      padding: 10px 25px 10px 0
+      position: relative
+      &::after
+        content: url('../images/svg/arrow_down.svg')
+        position: absolute
+        width: 11px
+        height: 11px
+        top: 8px
+        right: 0
+    .card-list
+      &__item
+        font-size: 14px
+        line-height: 2.8em
+  

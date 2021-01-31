@@ -1,0 +1,52 @@
+.header
+  font-size: 15px
+.header-top
+  background-color:  #f0f3f8 
+  padding: 8px 0
+.header-top__list
+.header-top__item
+.header-top__link
+  padding-right: 20px
+  margin-right: 30px
+  position: relative
+  &::after
+    content: url('../images/svg/arrow_down.svg')
+    width: 9px
+    height: 9px
+    right: 0
+    position: absolute
+.header-top__item:last-child .header-top__link
+  margin-right: 0
+  &::after
+    content: '0'
+.header-center
+  padding: 18px 0
+.header__callback
+  text-decoration: underline
+  margin-bottom: 11px
+  line-height: 6px
+
+.header-bottom
+  background-color: #f9fafc
+.menu-list__item
+  position: relative
+  padding: 13px 0
+  transition: all 0.3s ease
+  &::before
+    content: ''
+    width: 100%
+    transform: scale(0)
+    height: 0px
+    background-color: $color-pimary
+    position: absolute
+    top: 0
+    transition: all 0.5s ease
+.menu-list__item:hover
+  &::before
+    transform: scale(1)
+    height: 3px
+  .icon-header
+    fill: $color-pimary   
+.menu-list__link
+  span
+    margin-top: 17px

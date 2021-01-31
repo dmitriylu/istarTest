@@ -1,0 +1,36 @@
+.about
+  &__title
+    font-size: 30px
+    line-height: 1.33em
+    margin-bottom: 19px
+  &__code
+    font-size: 14px
+    color: $color-text
+    margin-bottom: 43px
+  &__price
+    @include font ($font-primary,40,300)
+    color: $color-pimary
+    &-item:last-child
+      font-size: 18px
+      position: relative
+      bottom: 15px
+      right: 7px
+  &__product-buy
+    margin-bottom: 27px
+  &__btn
+    margin-right: 204px
+    .btn
+      border: none
+      padding: 10px 19.5px
+      background-color: $color-pimary
+      color: #ffffff
+      border-top-left-radius: 10px
+      border-bottom-left-radius: 10px
+    .btn.dropdown-toggle
+      border-bottom-right-radius: 10px
+      border-top-right-radius: 10px
+    .dropdown-toggle::after
+      content: url('../images/btn-arrow-down.png')
+      border: none
+    .btn.dropdown-toggle.dropdown-toggle-split
+      border-left: 1px solid #d1192c

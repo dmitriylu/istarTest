@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iStar</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Slick css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- All css -->
+    <link href="./build/css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul class="header-top__list d-flex justify-content-end">
+                            <li class="header-top__item">
+                                <a class="header-top__link" href="#">
+                                    <img class="header-top__icon" src="./build/images/user.png" alt="#">
+                                </a>
+                            </li>
+                            <li class="header-top__item">
+                                <a class="header-top__link" href="#">
+                                    <img class="header-top__icon" src="./build/images/cart.png" alt="#">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex flex-column flex-sm-row justify-content-between align-items-center">
+                        <div class="logo header__logo">
+                            <a href="#header" class="logo__link">
+                                <img class="logo__img" src="./build/images/logo.png" alt="#">
+                            </a>
+                        </div>
+                        <div class="header__phones">
+                            <div class="header__phones-item">
+                                <a href="#" class="header__callback">Заказать обратный звонок</a>
+                            </div>
+                            <div class="header__phones-item">
+                                <a href="tel:+380445011441">+38 (044) 501 14 41</a>
+                            </div>
+                            <div class="header__phones-item">
+                                <a href="tel:+380577840700">38 (057) 784 07 00</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header__nav">
+                            <nav class="menu navbar navbar-expand-lg navbar-light bg-light">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav menu-list d-flex justify-content-between w-100">
+                                        <li class="menu-list__item">
+                                            <a href="#" class="menu-list__link d-flex flex-column align-items-center">
+                                                <svg class="icon-header">
+                                                    <use xlink:href="./build/images/svg/symbol/sprite.svg#header-icon">
+                                                    </use>
+                                                </svg>
+                                                <span>Мебель</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a href="#" class="menu-list__link d-flex flex-column align-items-center">
+                                                <svg class="icon-header">
+                                                    <use
+                                                        xlink:href="./build/images/svg/symbol/sprite.svg#header-icon_2">
+                                                    </use>
+                                                </svg>
+                                                <span>Кухня</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a href="#" class="menu-list__link d-flex flex-column align-items-center">
+                                                <svg class="icon-header">
+                                                    <use
+                                                        xlink:href="./build/images/svg/symbol/sprite.svg#header-icon_3">
+                                                    </use>
+                                                </svg>
+                                                <span>Все для дома</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a href="#" class="menu-list__link d-flex flex-column align-items-center">
+                                                <svg class="icon-header">
+                                                    <use
+                                                        xlink:href="./build/images/svg/symbol/sprite.svg#header-icon_4">
+                                                    </use>
+                                                </svg>
+                                                <span>Освещение</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a href="#" class="menu-list__link d-flex flex-column align-items-center">
+                                                <svg class="icon-header">
+                                                    <use
+                                                        xlink:href="./build/images/svg/symbol/sprite.svg#header-icon_5">
+                                                    </use>
+                                                </svg>
+                                                <span>Часы и декор</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a href="#" class="menu-list__link d-flex flex-column align-items-center">
+                                                <svg class="icon-header">
+                                                    <use
+                                                        xlink:href="./build/images/svg/symbol/sprite.svg#header-icon_6">
+                                                    </use>
+                                                </svg>
+                                                <span>Деловой стиль</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a href="#" class="menu-list__link d-flex flex-column align-items-center">
+                                                <svg class="icon-header">
+                                                    <use
+                                                        xlink:href="./build/images/svg/symbol/sprite.svg#header-icon_7">
+                                                    </use>
+                                                </svg>
+                                                <span>Активный отдых</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a href="#" class="menu-list__link d-flex flex-column align-items-center">
+                                                <svg class="icon-header">
+                                                    <use
+                                                        xlink:href="./build/images/svg/symbol/sprite.svg#header-icon_8">
+                                                    </use>
+                                                </svg>
+                                                <span>Детский мир</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs-list">
+                            <li class="breadcrumbs-list__item">
+                                <a href="#" class="breadcrumbs-list__link">Главная</a>
+                            </li>
+                            <li class="breadcrumbs-list__item">
+                                <a href="#" class="breadcrumbs-list__link">Каталог</a>
+                            </li>
+                            <li class="breadcrumbs-list__item">
+                                <a href="#" class="breadcrumbs-list__link">Кухня</a>
+                            </li>
+                            <li class="breadcrumbs-list__item">
+                                <a href="#" class="breadcrumbs-list__link">Кухонные аксессуары</a>
+                            </li>
+                            <li class="breadcrumbs-list__item">
+                                <a href="#" class="breadcrumbs-list__link breadcrumbs-list__link--active">Tермокружки,
+                                    термосы</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                    <!-- About products -->
+                    <div class="about">
+                        <div class="about__heading">
+                            <h1 class="about__title">
+                                Книжный шкаф Calligaris Lib, Double-sided tall bookcase,
+                                inish glossy white and Glass smoked grey
+                            </h1>
+                            <div class="about__code">PN: AE113AWBPJG1C7BK3D01</div>
+                        </div>
+                        <div
+                            class="about__product-buy d-flex flex-wrap flex-column flex-sm-row align-items-center justify-content-between">
+                            <div class="about__price">
+                                <span class="about__price-item">946 470,</span>
+                                <span class="about__price-item">UAH</span>
+                            </div>
+                            <div class="about__btn">
+                                <div class="btn-group">
+                                    <button type="button" class="btn">Купить</button>
+                                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Купить</a>
+                                        <a class="dropdown-item" href="#">Купить по акции</a>
+                                        <a class="dropdown-item" href="#">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sliders products -->
+                    <div class="product-sliders">
+                        <div class="slider-main">
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img_2.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img_3.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img_4.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img_5.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img_6.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img_7.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                            <div class="slider-main__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                        </div>
+                        <div class="slider-nav">
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img_2.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img_3.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img_4.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img_5.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img_6.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img_7.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                            <div class="slider-nav__item">
+                                <img src="./build/images/slider/slider-img.jpg" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Info tabs product -->
+                    <div class="product-info">
+                        <nav>
+                            <div class="nav nav-tabs d-flex" id="nav-tab" role="tablist">
+                                <a class="nav-link flex-grow-1 text-center active" id="nav-home-tab" data-toggle="tab"
+                                    href="#nav-home" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Описание</a>
+                                <a class="nav-link flex-grow-1 text-center" id="nav-profile-tab" data-toggle="tab"
+                                    href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Гарантия</a>
+                                <a class="nav-link flex-grow-1 text-center" id="nav-contact-tab" data-toggle="tab"
+                                    href="#nav-contact" role="tab" aria-controls="nav-contact"
+                                    aria-selected="false">Дизайнер</a>
+                                <a class="nav-link flex-grow-1 text-center" id="nav-contact-tab" data-toggle="tab"
+                                    href="#nav-contact" role="tab" aria-controls="nav-contact"
+                                    aria-selected="false">Бренд</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab">
+                                Одна линия, много возможностей. Cерия Lirio Nick-Knack от Philips, новый торшер, который
+                                вдохновляет, идея светильника начинается с прямой линии, Lirio Nick-Knack могут быть
+                                скручены в 16 различных положениях. Доступные напольные светильники Lirio Nick-Knack
+                                выполнены в 5 ярких цветах (красный, жёлтый, синий, белый, чёрный), это игривые торшеры
+                                приносят эффект прямого и отраженного освещения, с дизайнерскими светильниками Lirio
+                                Nick-Knack вы можете читать книгу или просто создать приятную атмосферу в вашем доме.
+                                Сочетая элегантный дизайн с LED лампой, Lirio Nick-Knack является одной из первых линий
+                                большой истории вашего дома
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
+                                Одна линия, много возможностей. Cерия Lirio Nick-Knack от Philips, новый торшер, который
+                                вдохновляет, идея светильника начинается с прямой линии, Lirio Nick-Knack могут быть
+                                скручены в 16 различных положениях. Доступные напольные светильники Lirio Nick-Knack
+                                выполнены в 5 ярких цветах (красный, жёлтый, синий, белый, чёрный), это игривые торшеры
+                                приносят эффект прямого и отраженного освещения, с дизайнерскими светильниками Lirio
+                                Nick-Knack вы можете читать книгу или просто создать приятную атмосферу в вашем доме.
+                                Сочетая элегантный дизайн с LED лампой, Lirio Nick-Knack является одной из первых линий
+                                большой истории вашего дома
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                aria-labelledby="nav-contact-tab">
+                                Одна линия, много возможностей. Cерия Lirio Nick-Knack от Philips, новый торшер, который
+                                вдохновляет, идея светильника начинается с прямой линии, Lirio Nick-Knack могут быть
+                                скручены в 16 различных положениях. Доступные напольные светильники Lirio Nick-Knack
+                                выполнены в 5 ярких цветах (красный, жёлтый, синий, белый, чёрный), это игривые торшеры
+                                приносят эффект прямого и отраженного освещения, с дизайнерскими светильниками Lirio
+                                Nick-Knack вы можете читать книгу или просто создать приятную атмосферу в вашем доме.
+                                Сочетая элегантный дизайн с LED лампой, Lirio Nick-Knack является одной из первых линий
+                                большой истории вашего дома
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <aside class="sidebar">
+                        <button class="sidebar__btn btn btn-outline-dark">Перейти в каталог</button>
+                        <div class="sidebar__accordion">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <div class="mb-0">
+                                            <div class="card__title" data-toggle="collapse" data-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">Кухня</div>
+                                        </div>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <ul class="card-list">
+                                                <li class="card-list__item">Техника для кухни</li>
+                                                <li class="card-list__item">Кухонные аксессуары</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <!-- Slick js -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./build/js/index.min.js"></script>
+</body>
+
+</html>

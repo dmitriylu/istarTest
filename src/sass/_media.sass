@@ -1,0 +1,44 @@
+@media only screen and (max-width:991px)
+  .sidebar
+    display: flex
+    align-items: center
+    justify-content: space-evenly
+@media only screen and (max-width:767px)
+  .about__btn
+    margin-right: 0
+  .product-sliders
+    flex-direction: column
+    margin-bottom: 50px
+    .slider-nav
+      flex-direction: row
+      width: 100%
+      &__item
+        width: 54px
+  .product-sliders .slider-nav .slider-nav__arrow-next
+    left: auto
+    bottom: auto
+    right: 0
+    top: 50%
+    transform: translateY(-50%) rotate(-90deg)
+  .product-sliders .slider-nav .slider-nav__arrow-prev
+    left: 0
+    transform: rotate(90deg)
+  .breadcrumbs
+    .breadcrumbs-list__item
+      line-height: 2em
+@media only screen and (max-width:575px)
+  .header__logo
+    margin-bottom: 20px
+  .about__heading
+    text-align: center
+  .about__title
+    font-size: 25px
+  .about__price
+    margin-bottom: 20px
+  .sidebar
+    flex-direction: column
+    align-items: center
+  .product-info
+    .nav-link
+      font-size: 14px
+  
